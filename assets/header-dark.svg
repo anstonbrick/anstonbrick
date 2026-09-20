@@ -1,6 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="100%" height="110" fill="none">
-  <rect width="800" height="110" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <text x="32" y="52" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="600">&gt;_</text>
-  <text x="64" y="52" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="700" letter-spacing="-0.5">anston brick</text>
-  <text x="64" y="80" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">systems / reverse engineering / tooling</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="160" fill="none">
+  <defs>
+    <pattern id="grid-dark" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#30363d" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer container with rounded corners and border -->
+  <rect x="0.5" y="0.5" width="799" height="159" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Subtle technical grid -->
+  <rect x="1" y="1" width="798" height="158" rx="5" fill="url(#grid-dark)"/>
+
+  <!-- Top technical rail -->
+  <line x1="0" y1="36" x2="800" y2="36" stroke="#21262d" stroke-width="1"/>
+  <text x="24" y="23" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.5">ANSTON BRICK</text>
+  <text x="776" y="23" text-anchor="end" fill="#7d8590" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500" letter-spacing="1.5">BUILD · BREAK · DOCUMENT</text>
+
+  <!-- Corner drafting marks -->
+  <path d="M 24 54 L 24 46 L 32 46" fill="none" stroke="#58a6ff" stroke-width="1.25"/>
+  <path d="M 776 130 L 776 138 L 768 138" fill="none" stroke="#30363d" stroke-width="1.25"/>
+
+  <!-- Main identity typography -->
+  <text x="44" y="90" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="600">&gt;_</text>
+  <text x="82" y="92" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28" font-weight="700" letter-spacing="-0.5">anston brick</text>
+  <text x="82" y="124" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" letter-spacing="0.2">systems / reverse engineering / tooling</text>
+
+  <!-- Technical dimension tick mark on bottom right -->
+  <line x1="720" y1="138" x2="760" y2="138" stroke="#30363d" stroke-width="1"/>
+  <line x1="720" y1="134" x2="720" y2="138" stroke="#30363d" stroke-width="1"/>
+  <line x1="740" y1="135" x2="740" y2="138" stroke="#30363d" stroke-width="1"/>
+  <line x1="760" y1="134" x2="760" y2="138" stroke="#30363d" stroke-width="1"/>
 </svg>
